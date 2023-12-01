@@ -13,11 +13,19 @@
 
 /* Seção Superior */
 .superior__secao__container {
-    gap: 15px;
+    gap: 1rem;
     display: flex;
     overflow: scroll;
     align-items: center;
     white-space: nowrap;
+}
+
+/* Menu Lateral */
+.menu__container {
+    bottom: 0;
+    width: 100%;
+    height: 74px;
+    position: fixed;
 }
 
 /* Rodapé */
