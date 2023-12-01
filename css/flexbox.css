@@ -11,11 +11,18 @@
     display: none;
 }
 
+/* Seção Superior */
+.superior__secao__container {
+    gap: 15px;
+    display: flex;
+    overflow: scroll;
+    align-items: center;
+    white-space: nowrap;
+}
+
 /* Rodapé */
 .rodape__container {
     display: flex;
-    /* flex-wrap: wrap;
-    flex-direction: column; */
     flex-flow: column wrap;
 }
 
