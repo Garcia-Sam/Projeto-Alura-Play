@@ -38,6 +38,13 @@
     align-self: center;
 }
 
+.menu__itens {
+    gap: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4) {
