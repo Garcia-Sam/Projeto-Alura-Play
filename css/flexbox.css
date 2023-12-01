@@ -5,3 +5,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.cabecalho__pesquisar__item {
+    display: none;
+}
+
+@media screen and (min-width: 834px) {
+    .cabecalho__pesquisar__item {
+        display: block;
+    }
+}
