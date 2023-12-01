@@ -51,6 +51,13 @@
     display: none;
 }
 
+/* Video */
+.videos__item {
+    width: 280px;
+    height: 303px;
+}
+
+
 /* Rodapé */
 .rodape__container {
     display: flex;
