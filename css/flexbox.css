@@ -15,7 +15,7 @@
 .superior__secao__container {
     gap: 1rem;
     display: flex;
-    overflow: scroll;
+    overflow: auto;
     align-items: center;
     white-space: nowrap;
 }
@@ -89,7 +89,7 @@
 @media screen and (min-width: 1440px) {
     .menu__container {
         width: 239px;
-        overflow: scroll;
+        overflow: auto;
     }
 
     .menu__lista {
