@@ -104,6 +104,10 @@
         display: flex;
     }
 
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
     .menu__itens {
         gap: 1rem;
         align-items: center;
@@ -111,4 +115,19 @@
         justify-content: left;
     }
 
+    .premium {
+        order: 1;
+    }
+
+    .filmes {
+        order: 2;
+    }
+
+    .jogos {
+        order: 3;
+    }
+
+    .maispagina {
+        order: 4;
+    }
 }
