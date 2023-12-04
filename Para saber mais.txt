@@ -7,3 +7,14 @@ O Flexbox pode ser utilizado alterando o valor do display de um container para f
     O display: flex faz com que o container se expanda ocupando toda a largura do layout(repare na cor preta de background ocupando toda a largura disponível), assim, os outros containers com o mesmo valor de display ficam um embaixo do outro, na direção vertical.
 
     Já o display: inline-flex, utiliza as mesmas características de exibição do display: inline. Exibindo os elementos em nível de linha, na horizontal, sem ocupar toda a largura do layout.
+
+FLEX-SHRINK
+    A propriedade 'flex-shrink' é ideal para ser aplicada quando queremos encolher elementos à medida que o seu container diminui de largura.
+
+    O layout possui 1000px de largura, e cada item possui 250px de largura.
+
+    Quando alinhamos os elementos com display: flex, já conseguimos ter o efeito de diminuir os itens, de acordo com a largura do container.
+
+    E se quiséssemos que os itens encolhessem em proporção diferente, dando maior destaque para uns do que para outros em telas menores? É aí que o flex-shrink é ideal para ser utilizado.
+
+    Diferente da propriedade flex-grow, que quanto maior o valor inserido, mais um item poderá crescer. Com a propriedade flex-shrink quanto maior o valor inserido, mais este item irá encolher em relação aos seus itens irmãos.
